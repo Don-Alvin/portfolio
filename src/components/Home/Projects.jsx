@@ -15,7 +15,7 @@ const Projects = () => {
     <div key={project.id} className='p-4'>
       <h3 className='text-center text-xl font-semibold'>{project.name}</h3>
       <div className=' flex flex-col lg:flex-row gap-3 py-4'>
-        <img src={project.image} alt={project.name} className='lg:w-[400px]' />
+        <img src={project.image} alt={project.name} className='lg:w-[600px] lg:h-[300px] object-cover' />
         <div className='flex flex-col gap-4'>
           <p>{project.description}</p>
           <div className='flex flex-wrap gap-2'>
@@ -38,7 +38,7 @@ const Projects = () => {
 
 
   return (
-    <section className='border-b' id="projects">
+    <section className='lg:px-20' id="projects">
       <h4 className='font-bold text-2xl text-center'>Projects</h4>
       <div>
         {content}
