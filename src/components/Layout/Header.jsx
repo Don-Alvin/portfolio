@@ -57,8 +57,8 @@ const Header = () => {
                         <li className='px-2 text-gray-700 font-medium '>
                             <a href='#projects' onClick={closeMobileMenu}>Projects</a>
                         </li>
-                        <li className='px-2 text-gray-700 font-medium '>
-                            <Link to='#blogs' onClick={closeMobileMenu}>Blogs</Link>
+                        <li className='px-2 text-gray-700 font-medium border-b-2 border-white hover:border-[#ff9800]'>
+                            <a href='#skills' onClick={closeMobileMenu}>Skills</a>
                         </li>
                         <li className='px-2'>
                             <div className='flex gap-2 items-center'>
@@ -106,10 +106,10 @@ const Header = () => {
                             <Link to='/'>Home</Link>
                         </li>
                         <li className='px-2 text-gray-700 font-medium border-b-2 border-white hover:border-[#ff9800]'>
-                            <a href='#projects'>Projects</a>
+                            <a href='#skills'>Skills</a>
                         </li>
                         <li className='px-2 text-gray-700 font-medium border-b-2 border-white hover:border-[#ff9800]'>
-                            <Link to='/blogs'>Blog</Link>
+                            <a href='#projects'>Projects</a>
                         </li>
                     </ul>
                     <div className='h-[25px] w-[1px] bg-black'></div>

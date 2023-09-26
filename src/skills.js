@@ -24,8 +24,8 @@ const skills = [
 		src: "images/tailwind.png",
 	},
 	{
-		name: "TypeScript",
-		src: "images/typescript.png",
+		name: "React-Query",
+		src: "images/react-query.png",
 	},
 	{
 		name: "React Redux",
